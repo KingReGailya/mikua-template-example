@@ -21,7 +21,7 @@ Making a plugin
 
 Making a template
 
-    Tamplates are easyer then plugins as they mainly invole command arugment
+    Tamplates are easyer then plugins as they mainly invole command arugment's for Yt-dlp
     fist to understand list compile order that way you know where to put your code.
     Whenever you compile a list it compiles in this order, kinda like a burger
 
