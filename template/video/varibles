@@ -1,0 +1,10 @@
+arrow='>>'
+download=' -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"'
+begin=''
+end='.%(ext)s'
+arguments='%(title)s'
+envoirment='  --geo-bypass'
+dir=`echo /downloads`
+remove='true'
+q="'"
+

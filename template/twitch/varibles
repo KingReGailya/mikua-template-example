@@ -1,0 +1,37 @@
+
+#This is for logging
+#In order to disable logging replace >> with #
+arrow='>>'
+
+
+#This is the download options used by yt-dlp
+#Left blank as this works best with twitch
+download=''
+
+
+#These are naming schem varibles
+
+begin=''
+end='.%(ext)s'
+arguments='%(title)s'
+
+
+#These are the aguments that come after the link in YT-DLP
+envoirment='  --geo-bypass'
+
+# Dir tell's mikua where to install the files
+# By default its in /downlads
+dir=`echo /downloads`
+
+
+#This tell mikua wether to remove the complied.sh upon compliton
+#It is recommed too keep this at true
+
+remove='true'
+
+
+#This Q varible is a important part of the program 
+#  !!!IT WILL BREAK IF REMOVED OR CHANGED!!!
+
+q="'"
+

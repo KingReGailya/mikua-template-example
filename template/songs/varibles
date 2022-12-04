@@ -1,0 +1,10 @@
+arrow='>>'
+download=' -f 'ba' -x --audio-format mp3'
+begin='0'
+end='.%(ext)s'
+arguments='%(playlist_index)02d - %(title)s'
+envoirment='  --geo-bypass'
+dir=`echo /downloads`
+remove='true'
+q="'"
+
